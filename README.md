@@ -67,3 +67,5 @@ I've also tried using the factory function method to explicitly define both the 
 Is what I'm trying to do allowed in Jest? When I substitute the component for a regular JavaScript function, this mocking functionality works fine. [See this StackOverflow question that I opened on the subject.](https://stackoverflow.com/questions/48797693/jest-mock-es6-module-with-both-default-and-named-export/48798114#48798114)
 
 Why doesn't this work when the default export is a component?
+
+I feel like I'm missing something obvious, but I'm not sure what else to try at this point.
