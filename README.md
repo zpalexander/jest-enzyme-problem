@@ -42,7 +42,7 @@ Components such as these can be mocked with Jest using `jest.mock('module-name',
 // src/App.test.js
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';'
+import App from './App';
 
 jest.mock('./App', () => 'MockApp');
 
